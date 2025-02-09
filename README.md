@@ -1,6 +1,4 @@
-# GT website
+# My Personal Website
 
-push to killerbee{1-4}.cc.gatech.edu, ex:
-```
-$ scp index.html khsu38@killerbee1.cc.gatech.edu:~/www/
-```
+Trying to develop/study some frontend works with [Hugo](https://gohugo.io).
+
