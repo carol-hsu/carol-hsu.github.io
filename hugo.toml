@@ -77,7 +77,7 @@ defaultContentLanguage = "en"
 
   [params.gitInfo]
     gitRepo = "https://github.com/carol-hsu/carol-hsu.github.io"
-    showCommitMessage = true
+    showCommitMessage = false
 
   [params.social]
     e-linkedin = "https://www.linkedin.com/in/ke-jou-hsu"
