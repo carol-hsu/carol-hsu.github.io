@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Home based on jane theme on Carol Hsu&#39;s Blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Home based on jane theme on Carol Hsu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>asymplone@gmail.com (Carol Hsu)</managingEditor>
+    <webMaster>asymplone@gmail.com (Carol Hsu)</webMaster>
+    <lastBuildDate>Wed, 12 Feb 2025 15:12:28 +0800</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 12 Feb 2025 15:12:28 +0800</pubDate>
+      <author>asymplone@gmail.com (Carol Hsu)</author>
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;h1 id=&#34;ke-jou-carol-hsu&#34;&gt;Ke-Jou (Carol) Hsu&lt;/h1&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1109/SEC62691.2024.00011&#34;&gt;&lt;strong&gt;Colibri: Efficient Collection of Fine-Grained Resource Metrics Necessary for Mobile Edge Computing&lt;/strong&gt;&lt;/a&gt;, &lt;strong&gt;Ke-Jou Hsu&lt;/strong&gt;, Ketan Bhardwaj, Ada Gavrilovska, The Ninth ACM/IEEE Symposium on Edge Computing (SEC&#39;24)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1109/SEC54971.2022.00026&#34;&gt;&lt;strong&gt;ShapeShifter: Resolving the Hidden Latency Contention Problem in MEC&lt;/strong&gt;&lt;/a&gt;,
+Valentin Rakovic, &lt;strong&gt;Ke-Jou Hsu&lt;/strong&gt;, Ketan Bhardwaj, Ada Gavrilovska, Liljana Gavrilovska,
+The Seventh ACM/IEEE Symposium on Edge Computing (SEC&#39;22)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1007/s11227-021-04103-w&#34;&gt;&lt;strong&gt;Performance Benchmarking and Auto-tuning for Scientific Applications on Virtual Cluster&lt;/strong&gt;&lt;/a&gt;,
+&lt;strong&gt;Ke-Jou Hsu&lt;/strong&gt;, Jerry Chi-Yuan Chou,
+The Journal of Supercomputing 2021, Springer&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3422604.3425931&#34;&gt;&lt;strong&gt;DNS Does Not Suffice for MEC-CDN&lt;/strong&gt;&lt;/a&gt;,
+&lt;strong&gt;Ke-Jou Hsu&lt;/strong&gt;, James Choncholas, Ketan Bhardwaj, Ada Gavrilovska,
+The Nineteenth ACM Workshop on Hot Topics in Networks (HotNet&#39;20)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3318216.3363309&#34;&gt;&lt;strong&gt;Couper: DNN Model Slicing for Visual Analytics Containers at the Edge&lt;/strong&gt;&lt;/a&gt;,
+&lt;strong&gt;Ke-Jou Hsu&lt;/strong&gt;, Ketan Bhardwaj, Ada Gavrilovska,
+The Fourth ACM/IEEE Symposium on Edge Computing (SEC&#39;19)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.packtpub.com/en-us/product/kubernetes-cookbook-9781788836876&#34;&gt;&lt;strong&gt;Kubernetes Cookbook - second edition&lt;/strong&gt;&lt;/a&gt;,
+Hideto Saito, Hui-Chuan Chloe Lee, &lt;strong&gt;Ke-Jou Carol Hsu&lt;/strong&gt;,
+Packt Publishing 05/2018 (The same team published 1st edition at 06/2015)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1109/SC.2012.92&#34;&gt;&lt;strong&gt;Parallel I/O, Analysis, and Visualization of a Trillion Particle Simulation&lt;/strong&gt;&lt;/a&gt;,
+Surendra Byna, J. Chou, O. Rübel, Prabhat, H. Karimabadi, W. S. Daughton, V. Roytershteyn, E. W. Bethel,
+M. Howison, &lt;strong&gt;K.-J. Hsu&lt;/strong&gt;, K.-W. Lin, A. Shoshani, A. Uselton, and K. Wu,
+The Supercomputing Conference 2012 (SC&#39;12)
+[&lt;a href=&#34;https://sdm.lbl.gov/~sbyna/research/papers/vpic.pdf&#34;&gt;paper access&lt;/a&gt;]&lt;/p&gt;
+&lt;h2 id=&#34;invited-presentation&#34;&gt;Invited Presentation&lt;/h2&gt;
+&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;
+&lt;h2 id=&#34;honor&#34;&gt;Honor&lt;/h2&gt;
+</description>
+      
+    </item>
+    
   </channel>
 </rss>
