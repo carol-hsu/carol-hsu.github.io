@@ -9,6 +9,19 @@ menu = 'main'
 
 # Ke-Jou (Carol) Hsu
 
+**Ke-Jou (Carol) Hsu** has worked in computer systems for years. 
+Her research began with HPC and virtualization at National Tsing Hua University (advised by [Jerry Chou](https://lsalab.cs.nthu.edu.tw/member/advisor)), 
+focusing on deploying and running HPC workloads in the cloud. 
+Later, as an industry engineer, she worked on public cloud service backends, 
+specializing in Linux containers, microservices, and Kubernetes.
+
+She recently completed her PhD at Georgia Institute of Technology (advised by [Ada Gavrilovska](https://sites.cc.gatech.edu/home/ada/)), 
+expanding her system studies into edge computing on 5G networks. 
+Her work explores efficient, fast, and observable system support for edge workloads.
+
+Anecdote🤓 -- Her Mandarin name ```Ke-Jou (克柔)``` sounds like ```Carol```, 
+a name given by her first English teacher. She uses it in tech and with foreign friends for simplicity.
+
 
 ## Publication
 

@@ -16,10 +16,10 @@ introductionWidget:
   avatar: /image/energy_wooper_wob.png
   showSocial: true
 
-postWidget:
-  - type: recent
-    title: Recent Posts
-    count: 3
+#postWidget:
+#  - type: recent
+#    title: Recent Posts
+#    count: 3
   # - type: category
   #  title: Posts From Category Demo
   #  category: demo
