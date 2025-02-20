@@ -54,6 +54,58 @@ The Supercomputing Conference 2012 (SC'12)
 [[paper access](https://sdm.lbl.gov/~sbyna/research/papers/vpic.pdf)]
 
 
-## Invited Presentation
+## Selected Presentation
+
+[**Fine-grained, lightweight resource metric collection in Mobile Edge Computing**](/pdf/nthu-colibri.pdf) 
+-- Alumni Seminar, NTHU (09/2023)
+
+[**MEC-in-a-Box**](https://www.youtube.com/watch?v=rfS7dcG6pNM)
+-- Demo, Application Driven Architecture (ADA) Center Annual Symposium, SRC (05/2020)
+
 ## Work Experience
+
+**Ph.D. Research Intern**  (05/2021 - 08/2021)
+
+CTO Office, Dell Technologies Solutions, VMware, CA (remote from GA), USA
+* Built Open vRAN with Tanzu Kubernetes Grid (TKG)
+* Deployed Magma in vSphere and analyzed network policies to support edge applications
+
+
+**Ph.D. Research Intern**  (06/2020 - 08/2020)
+
+CTO Office, Juniper Networks, CA (remote from GA), USA
+* Investigated network visibility in Kubernetes and developed a traffic-aware scheduler
+* Enhanced support for networking-critical applications by incorporating container network bandwidth into Kubernetes scheduling using Prometheus monitoring and API calls
+
+**DevOps and Backend Engineer**  (02/2017 - 07/2017)
+
+Tomofun Inc., Taiwan
+* Designed and developed and built up microservice backend system on AWS for an IoT product
+* Created next-generation backend system for home cameras and mobile clients, running on
+AWS ECS and integrating with various internal (e.g. Route53 and DynamoDB) and external
+services (e.g. Mailchimp)
+
+**Engineer** (09/2014 - 09/2016)
+
+R&D, Data Center Service Group, Trend Micro Inc., Taiwan
+* Developed backend systems for datacenter management services using Python and Java
+* Designed and deployed scalable and fault-tolerant systems on AWS using CloudFormation
+and OpsWorks
+* Deployed CI/CD end-to-end systems (e.g. Jenkins and Github) and designed workflows for
+hybrid cloud environments
+
+**Research Assistant**  (07/2014 - 08/2014)
+
+Networking and Multimedia System Lab, National Tsing Hua University, Taiwan
+* Research topic: Distribution of News Videos to Mobile Devices over Challenged Networks
+* Developed a parallel program to transform static GPS datasets into interactive particles
+for simulation
+
+**Student Intern**  (07/2012 - 09/2012)
+
+Lawrence Berkeley National Laboratory, CA, USA
+* Research topic: The Virtual Object Layer in Scientific Data Service
+* Developed parallel programs for transposing dimensions of HDF5 files to improve I/O speed
+
+
 ## Honor
