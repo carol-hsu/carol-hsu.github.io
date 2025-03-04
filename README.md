@@ -1,7 +1,7 @@
 # My Personal Website
 
 Trying to develop/study some frontend works with [Hugo](https://gohugo.io).
-I have gone through following studies, and set/configure them to fit my requirements (my expectations of how the website should looks like) 
+I have gone through following studies, and set/configure them to fit my requirements (my expectations of how the website should looks like).
 
 0. Hugo installation and basic command lines 
 1. Github workflow 

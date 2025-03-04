@@ -1,5 +1,5 @@
 ---
-title: Home based on jane theme
+title: "System softwares and beyond"
 layout: custom_home  # use custom home layout
 
 introductionWidget:
@@ -16,14 +16,10 @@ introductionWidget:
   avatar: /image/energy_wooper_wob.png
   showSocial: true
 
-#postWidget:
-#  - type: recent
-#    title: Recent Posts
-#    count: 3
-  # - type: category
-  #  title: Posts From Category Demo
-  #  category: demo
-  #  count: 3
+postWidget:
+  - type: recent
+    title: Recent Posts
+    count: 3
   # - type: category
   #   title: Documents
   #   category: docs
