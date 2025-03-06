@@ -37,7 +37,7 @@ Later, Docker was split into two projects:
 The container ecosystem is now governed by [Open Container Initiate (OCI)](https://opencontainers.org), 
 a Linux Foundation standard that defines container image formats and runtimes. 
 This means that, any software that follows OCI standards and gains community acceptance can replace Docker.
-Also, you can 
+In fact, you can create your own container deploying platform without Docker products.
 Currently, the other major players are [Red Hat](https://github.com/containers) (CRI-O, Podman, ... etc) and
 Mirantis (the enterprise version of Docker engine).
 
