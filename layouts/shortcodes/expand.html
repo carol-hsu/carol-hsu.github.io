@@ -1,0 +1,7 @@
+<details>
+  <summary style="background-color:rgba(200,200,245,0.2);border:0px solid #ccc;padding:5px;">
+    {{ with .Get 0}}{{.}}
+    {{else}}Click to expand{{ end }}
+  </summary>
+  {{ .Inner | markdownify }}
+</details>
