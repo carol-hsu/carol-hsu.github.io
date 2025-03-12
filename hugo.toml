@@ -61,8 +61,8 @@ defaultContentLanguage = "en"
 
   # site info (optional)
   logoTitle = "( ੭˙ᗜ˙)੭🥟"
-  keywords = ["Linux", "Rust","eBPF"]
-  description = "personal website made by Hugo."
+  keywords = ["Linux", "Rust", "eBPF"]
+  description = "The studying journey of computer systems."
 
   dateFormatToUse = "2006-01-02"
 

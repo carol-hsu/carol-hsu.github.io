@@ -20,7 +20,13 @@ While working with containers for several years, I've come across statements lik
 
 I don't agree with them. Let me explain why. 
 
-> By the way, I understand that there's nothing wrong with solving a problem using whatever works and makes life easier. But please, don't be loud and dismissive if you haven't considered whether the tool was **even designed for this purpose**. Complaining about missing features or saying "why is this so hard to use?" becomes indefensible when you're using **the wrong tool in the first place**.
+{{< expand "Still yammering -> someone said: why are you so picky!? " >}}
+I understand that there's nothing wrong with solving a problem using whatever works and makes life easier. 
+But please, don't be loud and dismissive if you haven't considered 
+whether the tool was **even designed for this purpose**. 
+Complaining about missing features or saying "why is this so hard to use?" 
+becomes indefensible when you're using **the wrong tool in the first place**.
+{{< /expand >}}
 
 ## Docker =\\= Container
 
