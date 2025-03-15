@@ -150,7 +150,7 @@ allowing project owners to use different languages, frameworks, and storage solu
 without affecting others' schedules.
 
 * **Optimize resource allocation**: 
-We can carefully allocate the suffient resource to each microservice so as to
+We can carefully allocate the sufficient resource to each microservice so as to
 reduce the overall computing cost. 
 Smaller, independent components are also easier to scale and schedule.
 
