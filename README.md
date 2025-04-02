@@ -18,3 +18,39 @@ I have gone through following studies, and set/configure them to fit my requirem
 - `static`: static files like icons and images
     - `./image`
 5. Update content 
+
+### Markdown syntax used in the content
+
+This website uses the theme [jane](https://github.com/xianmin/hugo-theme-jane). 
+There are some useful syntaxes that supported by original mardown application and jane.
+
+- Word style in the sentense
+
+```
+ **bold word** / *italic word* / `in-code word`
+```
+
+- Hyperlink
+
+```
+[The displayed word of link](https://LINK_URL)
+```
+
+- Footnote
+
+```
+The word[^fn-uid] you want to add footnote.
+
+[^fn-uid]: More description/citation will show on the bottom of the article.
+```
+
+- Expand message
+
+```
+{{< expand "This title will show up, not be extended" >}}
+Here comes some content..
+{{< /expand >}}
+```
+
+More usages and methods are introduced in the [official documentations](https://www.xianmin.org/hugo-theme-jane/post/).
+
