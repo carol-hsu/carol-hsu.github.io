@@ -52,7 +52,7 @@ Mirantis (the enterprise version of Docker engine).
 The more accurate term is "OCI image" or "container image" instead. 
 However, don't worry -- saying "Docker image" is still widely understood by most people.
 
-## Container and VM: similar but not the same
+## Container and VM: Similar but Not the Same
 
 Container is not designed to replace virtual machine (VM) entirely.
  
@@ -137,7 +137,7 @@ To achieve meaningful performance improvements,
 one should rethink the application's overall architecture alongside the chosen deployment method.
 
 
-## Containerization is just a deployment method
+## Containerization Is Just a Deployment Method
 
 As described earler, containers enable fine-grained workload deployment,
 helping us build more efficient and scalable services.
@@ -174,7 +174,7 @@ simply containerizing programs might give the appearance of a microservices syst
 but provide no real benefits, only headaches.
 
 
-## Non-related summary 🤪 
+## Non-related Summary 🤪 
 
 During my gap year, I sometimes feel anxious about not making enough progress.
 Writing code doesn't always help -- it can feel like I'm just building another toy project.
