@@ -21,10 +21,10 @@ I have gone through following studies, and set/configure them to fit my requirem
 
 ### Markdown syntax used in the content
 
-This website uses the theme [jane](https://github.com/xianmin/hugo-theme-jane). 
-There are some useful syntaxes that supported by original mardown application and jane.
+This website uses the [Jane](https://github.com/xianmin/hugo-theme-jane) theme. 
+Below are some useful Markdown syntaxes supported by both standard Markdown and Jane.
 
-- Word style in the sentense
+- Word style in a sentence
 
 ```
  **bold word** / *italic word* / `in-code word`
@@ -44,7 +44,7 @@ The word[^fn-uid] you want to add footnote.
 [^fn-uid]: More description/citation will show on the bottom of the article.
 ```
 
-- Expand message
+- Expandable section
 
 ```
 {{< expand "This title will show up, not be extended" >}}
@@ -52,5 +52,5 @@ Here comes some content..
 {{< /expand >}}
 ```
 
-More usages and methods are introduced in the [official documentations](https://www.xianmin.org/hugo-theme-jane/post/).
+For more details, refer to the [official documentation](https://www.xianmin.org/hugo-theme-jane/post/).
 
