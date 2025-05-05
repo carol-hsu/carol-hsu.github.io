@@ -19,9 +19,9 @@ an Intel-based MacBook.
 To continue working and studying with Linux, I decided to create a Linux VM on my laptop.
 
 It is kind of ashamed that I haven't got understand of macOS carefully; 
-I usually working on remote servers with Linux systems.
+I usually work on remote servers with Linux systems.
 My macbooks are used highly depending on applications with fancy UIs, 
-which means I don't know where the system/control-plane packages are located and how they got run on my labtop.
+which means I don't know where the system/control-plane packages are located and how they got run on my laptop.
 Through this project, it is a good chance to get know the software stack.
 
 
@@ -76,7 +76,7 @@ Their names can be a bit misleading, but they actually work together[^apple-foru
 Hypervisor.framework handles vCPU management and Memory mapping for VMs, while
 Virtualization.framework offers high-level APIs for creating and managing them.
 Virtualization tools can be built on top of these native frameworks.
-In fact, tools like UTM, xhyve, and Linuxkit are all built with them. 
+In fact, tools like UTM, xhyve, and LinuxKit are all built with them. 
 It's also likely that others, VirtualBox and VMware Fusion, are implemented using these libraries too (because, why wouldn't they?).
 Then, what's the difference between them when it comes to choosing the one most suitable for my needs?
 Here are some conditions I would consider:
@@ -92,16 +92,15 @@ Below, let's deep dive into the other technologies and design ideas behind these
 
 Among the four softwares, UTM and VMware Fusion are comprehensive applications 
 with user-friendly UIs, we can boot a VM directly with them.  
-On the other hand, xhyve and LinuxKit are simply libraries 
-and command-line tools. 
+On the other hand, xhyve and LinuxKit are simply libraries and command-line tools. 
 More specifically, xhyve acts as the hypervisor,
 while LinuxKit provides an interface to configure VM settings.
 They can work together, as shown in [this tutorial](https://www.nebulaworks.com/insights/posts/getting-started-linuxkit-mac-os-x-xhyve/) (LinuxKit do require a hypervisor to run).
 So, why would anyone use these tools instead of the more full-featured ones?
 One reason is that different implementations can solve different problems.
-For example, if you minimal resource usage and want to automate operations,
-like how Docker for Mac used to "secretly" run a Linux backend, 
-this lightweight approach fits well.
+For example, if you need minimal resource usage and want to automate operations,
+like how [Docker for Mac](https://github.com/docker/for-mac) used to "secretly" run a Linux backend, 
+this lightweight approach works well.
 
 That said, xhyve now seems unmaintained:
 its last commit on Github was over 4 years ago, 
@@ -113,12 +112,12 @@ I decided to try it out using the latest available codebase.
 
 QEMU (**Q**uick **EMU**lator) is a general-purpose and widely used hardware emulation solution on Linux. 
 It can also function as a hypervisor, since it is capable of mimicking hardware behavior:
-allowing guest OSs to run on its emulated devices and processes.
+allowing guest OSes to run on its emulated devices and processes.
 There are several types of hypervisors, and the main difference lies in *how dedicated* your machine is 
 to running VMs. Like, whether you can still multitask on the host OS while VMs are running. 
 When QEMU acts as a hypervisor, it's considered a loosely dedicated one. 
-As an emulator, it doesn't "take over" the whole system.
-On Linux, one common setup using QEMU alongside KVM: 
+As an emulator, it doesn't *take over* the whole system.
+On Linux, one common setup is using QEMU alongside KVM: 
 with KVM acting as the main hypervisor and QEMU providing hardware emulation support.
 I actually used this combination 10 years ago (OMG) 
 when running HPC workloads on a VM cluster. 
@@ -203,12 +202,12 @@ Installing a VM is straightforward with UTM and VMware Fusion --
 just use an ISO image and follow the familiar OS installation steps. 
 LinuxKit, however, works differently. 
 It requires you to build a VM image first, then run it with a chosen hypervisor. 
-To build the image, you need a configuration file in YAML, as outlined in [this documentation](https://github.com/linuxkit/linuxkit/blob/master/docs/yaml.md). 
+To build the image, you need a configuration file in YAML, as outlined in [this document](https://github.com/linuxkit/linuxkit/blob/master/docs/yaml.md). 
 The result is a Linux-based VM composed of multiple containers defined in the YAML file. 
 Interestingly, all components, including the Linux kernel, are packaged as Docker images. 
 These images must be downloaded locally and may need to be extracted during the build phase.
 At first, using container images for VM provisioning felt like a workaround,
-but on second thought, it might be a clever and efficient design choice in system perspective.
+but on second thought, it might be a clever and efficient design choice from a system perspective.
 
 
 ### Booting from an existing VM image
@@ -245,7 +244,7 @@ Sure, Fusion probably intends to save users time by recommending defaults.
 But that approach causes two issues:
 VM newbies might unknowingly waste resources (Windows 11 VM is asked for 64 GB disk space!), and
 the experienced users waste time hunting down basic configuration options.
-Say what you will about VirtualBox -- it may be old-school, but I still prefer its directness. 
+Say what you will about VirtualBox: it may be old-school, but I still prefer its directness. 
 It lets you configure everything upfront without hidden steps.
 
 

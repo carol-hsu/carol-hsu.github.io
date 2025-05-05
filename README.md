@@ -27,13 +27,13 @@ Below are some useful Markdown syntaxes supported by both standard Markdown and 
 - Word style in a sentence
 
 ```
- **bold word** / *italic word* / `in-code word`
+ **bold word** / *italic word* / `inline code word`
 ```
 
 - Hyperlink
 
 ```
-[The displayed word of link](https://LINK_URL)
+[Displayed link text](https://LINK_URL)
 ```
 
 - Footnote
@@ -41,13 +41,13 @@ Below are some useful Markdown syntaxes supported by both standard Markdown and 
 ```
 The word[^fn-uid] you want to add footnote.
 
-[^fn-uid]: More description/citation will show on the bottom of the article.
+[^fn-uid]: Additional description or citation appears at the bottom of the article.
 ```
 
 - Expandable section
 
 ```
-{{< expand "This title will show up, not be extended" >}}
+{{< expand "This title is visible while the content is collapsed" >}}
 Here comes some content..
 {{< /expand >}}
 ```
