@@ -139,7 +139,7 @@ one should rethink the application's overall architecture alongside the chosen d
 
 ## Containerization Is Just a Deployment Method
 
-As described earler, containers enable fine-grained workload deployment,
+As described earlier, containers enable fine-grained workload deployment,
 helping us build more efficient and scalable services.
 One common architecture leveraging containers is **microservices**,
 which offers several advantages over monolithic applications: 

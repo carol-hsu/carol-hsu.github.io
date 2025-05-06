@@ -20,7 +20,7 @@ expanding her system studies into edge computing on 5G networks.
 Her work explores efficient, fast, and observable system support for edge workloads.
 
 Anecdote🤓 -- My mandarin name ```Ke-Jou (克柔)``` sounds like ```Carol```, 
-a name given by my first English teacher. I uses it in tech and with foreign friends for simplicity.
+a name given by my first English teacher. I use it in tech and with foreign friends for simplicity.
 
 
 ## Publication
