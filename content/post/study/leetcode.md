@@ -153,7 +153,7 @@ so later you can compute the sum of any subarray `[n, m]` in constant time using
 `prefix[m] - prefix[n]`.
 
 
-- BFS / DFS
+- Breadth-First Search / Depth-First Search
 
 Breadth-First Search (BFS) and Depth-First Search (DFS) are 
 algorithms for exploring tree or graph structures. 
