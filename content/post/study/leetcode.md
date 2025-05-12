@@ -67,7 +67,7 @@ reading through other people's discussions really helps clarify my thinking when
 And since there's rarely single solution, exploring different approaches helps me grow.
 
 - **Challenging test cases**: 
-Because LeetCode is designed with interviews in mind, brute-force solutions often fail. 
+Because LeetCode is designed with interviews, brute-force solutions often fail. 
 If you write something naive, you'll probably get hit with a follow-up like "What if the input is huge?". 
 The platform expects you to understand space and time complexity, 
 and to improve your solution accordingly. 
@@ -98,30 +98,88 @@ There's a lot more that matters:
 real-world technical skills, how you think, how you communicate, and most importantly,
 whether you'd be a good teammate.
 
-For coding interviews, I will just keep following key methods in mind:
+When practicing for coding interviews, I try to keep the following key principles in mind:
 
-- Well-known about the syntax and coding style of the language you picked, 
-only used the package/library that you know how they practically work.
+1. Be fluent in your chosen language: know the syntax well, 
+and only use packages or libraries you understand thoroughly 
+(because you might be asked how they're implemented).
 
-- Well understand the problems: input, output, and thinking of the boundary cases
-- 
+2. Understand the problem: make sure the input, output, and edge cases are all clear to you.
 
+3. Write clean code: use clear naming, proper formatting, 
+and choose efficient, appropriate data structures.
 
+"Wait, don't you need to practice specific algorithms?" 
+Of course we should. 
+But as I said earlier, doing algorithm practice without structure or focus feels pointless to me,
+like a headless chicken running around. 
+Just doing lots of problems without reflection doesn't help much.
+Instead, we should build a solid foundation. It is already not easy to meet the principles above.
+During the interview, we need to show that we can write clean, 
+thoughtful code in our language of choice, 
+and engage in deeper discussion about algorithms and data structures, 
+especially in relation to principle #2. That's the kind of interview I think is worth aiming for.
 
-## Notes for Problem Solving
+## Problem Solving
+
+Here are some common methods or algorithmic patterns I often use to solve LeetCode problems. 
+I'm sharing them as notes:
 
 ### Key methods summary
-Dynamic Programing / Memorization / Recursive
 
-Prefix Sum
+- Dynamic Programing / Memorization / Recursion
 
-BFS / DFS
+Recursive solutions are often the most intuitive way to approach problems with large state spaces, 
+but they can easily lead to stack overflows or timeouts. 
+That's where dynamic programming (DP) comes in.
+DP is about storing intermediate results (memoization) 
+so we don't recompute the same things again. 
+Many recursive problems can be rewritten using DP to improve efficiency. 
+For a problem with `N` dimensions, we usually use an `N-1` dimensional memory structure 
+to store computed values.
+That said, once N reaches 3 or more, 
+the logic and memory usage can become complex and tricky to implement 
+(like [this one](https://leetcode.com/problems/count-number-of-balanced-permutations/description/)).
 
-Binary Search
+Many people see DP as the final boss. 
+The hardest part often is figuring out what variables you should index by, 
+in other words, how to represent the problem state in a way that allows memoization.
+
+- Prefix Sum
+
+Prefix Sum is applied to work with subarray sums or aggregated values over ranges. 
+The idea is to precompute a total aggregation at each index, 
+so later you can compute the sum of any subarray `[n, m]` in constant time using 
+`prefix[m] - prefix[n]`.
+
+
+- BFS / DFS
+
+Breadth-First Search (BFS) and Depth-First Search (DFS) are 
+algorithms for exploring tree or graph structures. 
+You don't always need to model a full tree/graph in code; what matters is the traversal strategy.
+BFS explores neighbors level by level (often with a queue); and
+DFS dives deep before backtracking (usually with a stack or recursion).
+Both are great for exploring reachable states, shortest paths, and connected components.
+
+- Binary Search
+
+Binary Search isn't just for sorted arrays. 
+It's a powerful way to narrow down the search space in any problem where the space is monotonic. 
+In other words, the solution space behaves in a way that allows binary decisions.
 
 ### Useful packages in Python
 
-Collections / Heap Queue
+When solving problems in Python, 
+I find that built-in functions and data types are often enough for most solutions. 
+I rarely need to import many extra packages. 
+Still, here are a couple of standard libraries I do use from time to time:
+
+- [collections](https://docs.python.org/3/library/collections.html): Especially useful tools like `Counter` for frequency counting and `deque` for efficient queue operations.
+
+- [heapq](https://docs.python.org/3/library/heapq.html): Provides a heap implementation. 
+While it's convenient, we should still understand how the underlying algorithm works 
+(see principle #1 [above](#how-hard-do-we-really-need-to-grind-for-interview-tests)).
 
 
 ## Side Notes
