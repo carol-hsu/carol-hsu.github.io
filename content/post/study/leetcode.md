@@ -29,9 +29,9 @@ While users openly share solutions and discussions, arguably the sweetest part o
 is there any kind of reward system for those who contribute the most?
 
 - Candidates can ace a question quickly in an interview simply 
-because they just practiced a nearly identical one 
+because they just practiced a nearly identical one.
 
-Maybe that's why LeetCode has become a sort of "He Who Must Not Be Named". 
+Maybe that's why LeetCode has become a sort of "He Who Must Not Be Named."
 When companies send out coding interview instructions, 
 they often reference other materials. 
 But in reality, most well-prepared candidates use LeetCode behind the scenes.
