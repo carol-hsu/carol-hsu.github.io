@@ -58,7 +58,7 @@ That's where LeetCode helps: the Daily Challenge and [Weekly Contest](https://le
 --- I aim to finish a problem within a day or solve several in 1.5 hours during contests. 
 It keeps things balanced and time-boxed.
 
-{{< figure src="/image/leetcode_daily.png" caption="LeetCode Daily Challenge tracks the streak and motivates me to check in every day. The daily problem appears at the top of the list. For example, today's is No. 1550." >}}
+{{< figure src="/image/study/leetcode_daily.png" caption="LeetCode Daily Challenge tracks the streak and motivates me to check in every day. The daily problem appears at the top of the list. For example, today's is No. 1550." >}}
 
 - **Community**: 
 LeetCode has a huge user base. 

@@ -172,7 +172,7 @@ However, not for VMware Fusion.
 To get the installer, we first need to register for the Broadcom [support protal](https://access.broadcom.com),
 and then go through a series of not-so-obvious steps. The UI is quite rough...
 
-{{< figure src="/image/broadcom_download_page.png" caption="Finally found where to download the application pack..." >}}
+{{< figure src="/image/study/broadcom_download_page.png" caption="Finally found where to download the application pack..." >}}
 
 {{< expand "To save you some frustration, here's a quick guide to get to the download" >}}
 1. Go to the "My Downloads" section on the left panel.
@@ -225,7 +225,7 @@ There is one frustrating issue: when I tried to reuse a kernel image to launch a
 I got a QEMU error about overlapping `bootindex` values. 
 It made sense, but I had to dig around just to figure out how to modify that parameter -- another small rabbit hole.
 
-{{< figure src="/image/utm_bootindex.png" caption="In UTM, booting a VM with a custom kernel image requires updating the \"bootindex\" parameter manually." >}}
+{{< figure src="/image/study/utm_bootindex.png" caption="In UTM, booting a VM with a custom kernel image requires updating the \"bootindex\" parameter manually." >}}
 
 
 ### Customizability vs. Simplicity
@@ -236,7 +236,7 @@ For example, if you want to create a VM with custom settings,
 Fusion gives you just a few screens before jumping into OS installation. 
 Resource allocation is preselected and fixed based on the OS type. 
 
-{{< figure src="/image/fusion_ubuntu_vm.png" caption="VMware Fusion's default settings for a 64-bit Ubuntu VM. Most options are locked. \"Customize Settings\" button is only for changing the name of VM." >}}
+{{< figure src="/image/study/fusion_ubuntu_vm.png" caption="VMware Fusion's default settings for a 64-bit Ubuntu VM. Most options are locked. \"Customize Settings\" button is only for changing the name of VM." >}}
 
 With its UI flow, we couldn't immediately change those values at beginning.
 It is required to fully shut down the VM (not just suspend it), and then go back into settings to adjust the resources.

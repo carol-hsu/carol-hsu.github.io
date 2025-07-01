@@ -7,8 +7,6 @@ menu = 'main'
 
 +++
 
-# Ke-Jou (Carol) Hsu
-
 **Ke-Jou (Carol) Hsu** has worked in computer systems for years. 
 Her research began with HPC and virtualization at National Tsing Hua University (advised by [Jerry Chou](https://lsalab.cs.nthu.edu.tw/member/advisor)), 
 focusing on deploying and running HPC workloads in the cloud. 
