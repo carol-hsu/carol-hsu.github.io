@@ -118,7 +118,8 @@ It was topped with [joppie](https://en.wikipedia.org/wiki/Joppie_sauce) sauce,
 sliced Mexicano sausage, and stoofvlees (beef stew). 
 A perfect mix of savory flavors and textures in one box.
 
-{{< gallery dir="/image/travel/belgium/food" /gallery >}}
+{{< gallery dir="/image/travel/belgium/food" >}}
+{{< /gallery >}}
 
 ### Mussels
 
@@ -196,7 +197,8 @@ surrounded by many historic buildings, each with its [own name and story](https:
 For example, the original flagship store of *Godiva* is at a building called "Joseph and Anne".
 
 
-{{< gallery dir="/image/travel/belgium/spot/street_art" caption-position="none" /gallery >}}
+{{< gallery dir="/image/travel/belgium/spot/street_art" caption-position="none" >}}
+{{< /gallery >}}
 
 There are lots of street decorations in both [Antwerp](https://stripmuren.be/stripmuren-comic-murals-antwerp/)
 and [Brussels](https://www.visit.brussels/en/visitors/plan-your-trip/comic-strip-trail). 
