@@ -25,7 +25,7 @@ I've grouped a few thoughts into different categories below (of course, a city o
 
 ## History
 
-I am really bad at history and geometry. Everytime I go traveling I get the chance to review them a bit.
+I am really bad at history and geography. Everytime I go traveling I get the chance to review them a bit.
 
 Belgium has three official languages: French, Dutch, and German. 
 These reflect its complex historical and cultural ties with neighboring countries. 
