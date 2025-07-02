@@ -76,7 +76,7 @@ forming the United Kingdom of the Netherlands.
 This union lasted only a few decades. 
 After the revolution, Belgium declared independence in 1830 
 and later became a neutral constitutional monarchy country.
-This status that played a role in Britain's decision to join WWI when Germany invaded Belgium[^book].
+This status played a role in Britain's decision to join WWI when Germany invaded Belgium[^book].
 
 
 
@@ -211,7 +211,7 @@ Wrapping up my thoughts about this trip feels harder than explaining a piece of 
 By the way, I've been studying French for almost a year. 
 During this trip, I really felt a sense of accomplishment, from reading street signs and menus to understanding some original Tintin comics!
 
-{{< figure src="/image/travel/belgium/spot/tintin.jpg" caption="Tintin the model in the specialty store" width="60%" link="https://maps.app.goo.gl/4m5YY3ZR4oKvMeco8" >}}
+{{< figure src="/image/travel/belgium/spot/tintin.jpg" caption="Tintin the model in the specialty store" width="45%" link="https://maps.app.goo.gl/4m5YY3ZR4oKvMeco8" >}}
 
 
 
