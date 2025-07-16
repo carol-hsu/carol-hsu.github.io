@@ -61,7 +61,7 @@ as part of the [Treaty of Versailles](https://en.wikipedia.org/wiki/Treaty_of_Ve
 Administratively, this German-speaking area is part of Wallonia.
 
 
-In addition to Wallonia and Flanders, the **Brussels-Capital Region** is the third federal region.
+In addition to Wallonia and Flemish Region, the **Brussels-Capital Region** is the third federal region.
 Here, both French and Dutch are official languages. 
 We spent most of our time in the City of Brussels during our trip.
 
