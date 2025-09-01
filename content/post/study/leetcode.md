@@ -168,6 +168,15 @@ Binary Search isn't just for sorted arrays.
 It's a powerful way to narrow down the search space in any problem where the space is monotonic. 
 In other words, the solution space behaves in a way that allows binary decisions.
 
+- Backtracking
+
+When coding, things get tiring once the logic gets too complicated:
+not only does the developer feel overwhelmed, but the reviewer also struggles to follow. 
+As a method to simplify logics, 
+backtracking is a clever way to handle brute-force methods: 
+mark a state, explore all possible next states, then remove the marker when backtracking.
+It's basically recursion + DFS, and it's often used for problems like finding number combinations.
+
 ### Useful packages in Python
 
 When solving problems in Python, 
