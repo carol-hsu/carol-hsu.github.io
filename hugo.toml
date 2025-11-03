@@ -7,7 +7,7 @@ theme = "jane"
 hasCJKLanguage = false
 rssLimit = 20 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "G-B4DQYNDLVV"
 copyright = ""
 enableGitInfo = true
 
