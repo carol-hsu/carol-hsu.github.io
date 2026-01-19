@@ -50,9 +50,9 @@ The challenge part is how make this article more fun to read 😓.
 
 Kubernetes (K8s) is a name from ancient Greek, *κυβερνήτης*, meaning someone who gives the commands.
 It was from [Google](https://spawn-queue.acm.org/doi/pdf/10.1145/2898442.2898444), now a famous, open-sourced container orchestration system.
-By saying K8s orchastrating or managing containers, 
-we have a set of computation resources, e.g., a cluster of machines, 
-and many applications in the microservice structure, K8s is the software in the middle/linkage of these two groups:
+When we say that K8s orchestrates or manages containers, 
+it refers to the software layer that connects a pool of computational resources 
+(e.g., a cluster of machines) with microservice-based applications:
 it helps to deploy and support the containers running on the machines with sufficient resources and proper isolations.
 
 Networking within K8s and with external endpoints is one of the important domain of study and management 
