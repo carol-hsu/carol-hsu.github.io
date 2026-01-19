@@ -55,8 +55,9 @@ it refers to the software layer that connects a pool of computational resources
 (e.g., a cluster of machines) with microservice-based applications:
 it helps to deploy and support the containers running on the machines with sufficient resources and proper isolations.
 
-Networking within K8s and with external endpoints is one of the important domain of study and management 
-in system perspective.
+
+Networking within K8s and its interaction with external endpoints 
+is an important area of study and management from a systems perspective.
 
 {{< expand "Here are some fundamental K8s keywords/abstractions that might help before moving on. You can skip this if you already know them well." >}}
 
@@ -79,6 +80,11 @@ Pods within the same Service don't need to run on the same host. K8s (scheduler)
  
 To avoid confusion, K8s terms are usually capitalized when written out.
 "Service" particularlly is so common that I always say "Kubernetes Service" in coversations to make it clearer.
+
+* **CustomResourceDefinition/CRD**: This resource type allows you to define custom resource types. 
+With CRDs, you can create and manage these new, abstract, domain-specific resources 
+using standard command line tools and APIs, with their state stored in K8s's central datastore. 
+For example, CNI solutions like [Calico](https://github.com/projectcalico/calico/blob/276b3a7c1002ba1d8d4e7337969f87c2b7bb8440/manifests/crds.yaml) define several CRDs to support and organize their networking functionality.
 
 {{< /expand >}}
 
