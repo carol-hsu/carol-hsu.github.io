@@ -17,6 +17,7 @@ I have gone through following studies, and set/configure them to fit my requirem
     - `./post`    
 - `static`: static files like icons and images
     - `./image`
+- `./data/categories.yaml`: configuring the naming of the categories for the posts.
 5. Update content 
 
 ### Markdown syntax used in the content

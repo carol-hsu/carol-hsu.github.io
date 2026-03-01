@@ -1,0 +1,17 @@
+# # Single language format
+study:
+   name: "Tech Study"  # Direct name for single language
+   weight: 1
+
+lang:
+   name: "Language"
+   weight: 2
+
+travel:
+  name: "Travel"
+  weight: 3
+
+anima:
+  name: "Animanga"
+  weight: 4
+

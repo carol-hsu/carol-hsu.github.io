@@ -9,7 +9,7 @@ tags: [
     "roadtrip"
 ]
 categories: [
-    "animanga"
+    "anima"
 ]
 ---
 
