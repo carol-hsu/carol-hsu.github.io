@@ -53,5 +53,13 @@ Here comes some content..
 {{< /expand >}}
 ```
 
+- Embedded Youtube video
+
+```
+{{< youtube ENCODE_STRING >}}
+```
+The parameter is shown in the Youtube URL's **v** value at **watch** query.
+E.g., `youtube.com/watch?v=Encode12345`, *Encode12345* is the parameter.
+
 For more details, refer to the [official documentation](https://www.xianmin.org/hugo-theme-jane/post/).
 
