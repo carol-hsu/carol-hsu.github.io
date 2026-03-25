@@ -54,7 +54,7 @@ The Supercomputing Conference 2012 (SC'12)
 
 ## Selected Presentation
 
-[**Fine-grained, lightweight resource metric collection in Mobile Edge Computing**](/pdf/nthu-colibri.pdf) 
+[**Fine-grained, Lightweight Resource Metric Collection in Mobile Edge Computing**](/pdf/nthu-colibri.pdf) 
 -- Alumni Seminar, NTHU (09/2023)
 
 [**MEC-in-a-Box**](https://www.youtube.com/watch?v=rfS7dcG6pNM)
