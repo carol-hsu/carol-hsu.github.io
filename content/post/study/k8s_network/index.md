@@ -89,7 +89,7 @@ For example, CNI solutions like [Calico](https://github.com/projectcalico/calico
 {{< /expand >}}
 
 
-{{< figure src="/image/study/k8s_network_components.png" caption="Network management components and the paths for containers to reach intra-applications" >}}
+{{< figure src="networking.png" caption="Network management components and the paths for containers to reach intra-applications" >}}
 
 
 The diagram above demonstrates two main discussions: 
