@@ -1,0 +1,11 @@
+{{- $socImg := resources.Get "./image/energy_wooper_wob.png" -}}
+
+{{- with .Page.Resources.GetMatch "title.png" }}
+ {{- $titleImg := . -}}
+ {{- $finalFilter := (images.Overlay $titleImg 0 0 ) -}}
+ {{- $socImg = resources.Get "/image/laugh_wooper.png" -}}
+ {{- $socImg = $socImg | images.Filter $finalFilter -}}
+{{- else -}}
+ {{- /* $socImg remains fallback image */ -}}
+{{- end }}
+<meta name="og:image" content="/image/energy_wooper_wob.png" />
