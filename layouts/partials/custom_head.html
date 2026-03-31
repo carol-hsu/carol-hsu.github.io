@@ -1,10 +1,8 @@
 {{- $socImg := resources.Get "images/energy_wooper_wob.png" -}}
-
+{{- $socImg = $socImg.Fit "1280x669" }}
 {{- with .Page.Resources.GetMatch "title.png" }}
   {{- $titleImg := . -}}
   {{- $socImg = $socImg | images.Filter (images.Overlay $titleImg 0 0) -}}
 {{- end }}
 
-{{- with $socImg }}
-  <meta name="og:image" content="{{ .Permalink }}" />
-{{- end }}
+<meta property="og:image" content="{{ $socImg.Permalink }}" />
