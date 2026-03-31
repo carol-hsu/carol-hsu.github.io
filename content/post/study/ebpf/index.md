@@ -98,7 +98,7 @@ The JIT compilation method is dominant due to performance advantages.
 
 The processing steps described above are demonstrated by the black arrows in the figure below.
 
-{{< figure src="/image/study/ebpf_flow.png" caption="The processing flow of deploying the eBPF program (black arrows), the eBPF map access flow (green arrows), and the event-driven execution flow that triggers eBPF functions (orange arrows)." >}}
+{{< figure src="ebpf_flow.png" caption="The processing flow of deploying the eBPF program (black arrows), the eBPF map access flow (green arrows), and the event-driven execution flow that triggers eBPF functions (orange arrows)." >}}
 
 
 In this figure, 
