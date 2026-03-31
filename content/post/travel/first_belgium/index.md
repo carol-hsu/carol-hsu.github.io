@@ -118,7 +118,7 @@ It was topped with [joppie](https://en.wikipedia.org/wiki/Joppie_sauce) sauce,
 sliced Mexicano sausage, and stoofvlees (beef stew). 
 A perfect mix of savory flavors and textures in one box.
 
-{{< gallery dir="/image/travel/belgium/food" >}}
+{{< gallery dir="food" >}}
 {{< /gallery >}}
 
 ### Mussels
@@ -160,16 +160,16 @@ a symbol of quality and prestige, you'll see a lion emblem on their packaging.
 I'm not sure what's the best way to share my impressions through photos, 
 so I'll simply describe my thoughts based on each one.
 
-{{< figure src="/image/travel/belgium/spot/train_station.jpg" caption="Antwerp Central train station" position="center" width="60%" >}}
+{{< figure src="spot/train_station.jpg" caption="Antwerp Central train station" position="center" width="60%" >}}
 
 Antwerp Central might be the most beautiful train station I've ever seen. 
 Guess what? According to Google Gemini, it's ranked among the top five in the world:
 along with stations in Porto, New York, Kanazawa, and Naples. 
 I was lucky to catch a moment when the lobby was nearly empty and take this photo with so few people around.
 
-{{< figure src="/image/travel/belgium/spot/station_level.jpg" caption="Except the impressive architecture, Antwerp Central has modern, open platforms in 4 levels" width="60%" >}}
+{{< figure src="spot/station_level.jpg" caption="Except the impressive architecture, Antwerp Central has modern, open platforms in 4 levels" width="60%" >}}
 
-{{< figure src="/image/travel/belgium/spot/church.jpg" caption="Church of Our Lady of Victories at the Sablon" width="60%" link="https://maps.app.goo.gl/yrx6iuzty8DcTm6t8">}}
+{{< figure src="spot/church.jpg" caption="Church of Our Lady of Victories at the Sablon" width="60%" link="https://maps.app.goo.gl/yrx6iuzty8DcTm6t8">}}
 
 This 15th-century church near the Royal Palace gave me the rare and beautiful sights: 
 we got to see sunlight streaming through its colorful stained-glass windows. 
@@ -178,14 +178,14 @@ They hold historical significance, feature magnificent architecture, and reflect
 Another notable one in Brussels is the [*Cathedral of Saint Michael and Saint Gudula*](https://maps.app.goo.gl/43E8KF5LxsPkt9xT7) (named after the city's patron saints). 
 It's also where national events for the royal family are held.
 
-{{< figure src="/image/travel/belgium/spot/palace.jpg" caption="The Royal Palace" width="60%" >}}
+{{< figure src="spot/palace.jpg" caption="The Royal Palace" width="60%" >}}
 
 The weather was *too* nice to stand in the sun to take better photos for the palace.
 It was a bit much for me, as someone coming from a hot country, I don't really enjoy super sunny day... 
 Luckily, the Park of Brussels, which is right in front of the palace, offers some much-needed shade.
 
-{{< figure src="/image/travel/belgium/spot/square_sunny.jpg" caption=" " width="60%" >}}
-{{< figure src="/image/travel/belgium/spot/square_night.jpg" caption="The \"Grand-Place\" in Brussels" width="60%" >}}
+{{< figure src="spot/square_sunny.jpg" caption=" " width="60%" >}}
+{{< figure src="spot/square_night.jpg" caption="The \"Grand-Place\" in Brussels" width="60%" >}}
 
 The *Grand-Place* is the central square of Brussels. 
 Victor Hugo once called it *"the most beautiful square in the world."* 
@@ -197,7 +197,7 @@ surrounded by many historic buildings, each with its [own name and story](https:
 For example, the original flagship store of *Godiva* is at a building called "Joseph and Anne".
 
 
-{{< gallery dir="/image/travel/belgium/spot/street_art" caption-position="none" >}}
+{{< gallery dir="spot/street_art" caption-position="none" >}}
 {{< /gallery >}}
 
 There are lots of street decorations in both [Antwerp](https://stripmuren.be/stripmuren-comic-murals-antwerp/)
@@ -211,7 +211,7 @@ Wrapping up my thoughts about this trip feels harder than explaining a piece of 
 By the way, I've been studying French for almost a year. 
 During this trip, I really felt a sense of accomplishment, from reading street signs and menus to understanding some original Tintin comics!
 
-{{< figure src="/image/travel/belgium/spot/tintin.jpg" caption="Tintin the model in the specialty store" width="45%" link="https://maps.app.goo.gl/4m5YY3ZR4oKvMeco8" >}}
+{{< figure src="spot/tintin.jpg" caption="Tintin the model in the specialty store" width="45%" link="https://maps.app.goo.gl/4m5YY3ZR4oKvMeco8" >}}
 
 
 
