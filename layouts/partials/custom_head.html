@@ -3,7 +3,7 @@
 {{- with .Page.Resources.GetMatch "title.png" }}
   {{- $titleImg := . -}}
   {{- $titleImg = $titleImg.Fit "1100x450" }}
-  {{- $socImg = $socImg | images.Filter (images.Overlay $titleImg 5 20) -}}
+  {{- $socImg = $socImg | images.Filter (images.Overlay $titleImg 5 50) -}}
 {{- end }}
 
 <meta property="og:image" content="{{ $socImg.Permalink }}" />
