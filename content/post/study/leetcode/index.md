@@ -129,54 +129,54 @@ I'm sharing them as notes:
 
 - Dynamic Programing / Memorization / Recursion
 
-Recursive solutions are often the most intuitive way to approach problems with large state spaces, 
-but they can easily lead to stack overflows or timeouts. 
-That's where dynamic programming (DP) comes in.
-DP is about storing intermediate results (memoization) 
-so we don't recompute the same things again. 
-Many recursive problems can be rewritten using DP to improve efficiency. 
-For a problem with `N` dimensions, we usually use an `N-1` dimensional memory structure 
-to store computed values.
-That said, once N reaches 3 or more, 
-the logic and memory usage can become complex and tricky to implement 
-(like [this one](https://leetcode.com/problems/count-number-of-balanced-permutations/description/)).
-
-Many people see DP as the final boss. 
-The hardest part often is figuring out what variables you should index by, 
-in other words, how to represent the problem state in a way that allows memoization.
+    Recursive solutions are often the most intuitive way to approach problems with large state spaces, 
+    but they can easily lead to stack overflows or timeouts. 
+    That's where dynamic programming (DP) comes in.
+    DP is about storing intermediate results (memoization) 
+    so we don't recompute the same things again. 
+    Many recursive problems can be rewritten using DP to improve efficiency. 
+    For a problem with `N` dimensions, we usually use an `N-1` dimensional memory structure 
+    to store computed values.
+    That said, once N reaches 3 or more, 
+    the logic and memory usage can become complex and tricky to implement 
+    (like [this one](https://leetcode.com/problems/count-number-of-balanced-permutations/description/)).
+    
+    Many people see DP as the final boss. 
+    The hardest part often is figuring out what variables you should index by, 
+    in other words, how to represent the problem state in a way that allows memoization.
 
 - Prefix Sum
 
-Prefix Sum is applied to work with subarray sums or aggregated values over ranges. 
-The idea is to precompute a total aggregation at each index, 
-so later you can compute the sum of any subarray `[n, m]` in constant time using 
-`prefix[m] - prefix[n]`.
+    Prefix Sum is applied to work with subarray sums or aggregated values over ranges. 
+    The idea is to precompute a total aggregation at each index, 
+    so later you can compute the sum of any subarray `[n, m]` in constant time using 
+    `prefix[m] - prefix[n]`.
 
 
 - Breadth-First Search / Depth-First Search
 
-Breadth-First Search (BFS) and Depth-First Search (DFS) are 
-algorithms for exploring tree or graph structures. 
-You don't always need to model a full tree/graph in code; what matters is the traversal strategy.
-BFS explores neighbors level by level (often with a queue); and
-DFS dives deep before backtracking (usually with a stack or recursion).
-Both are great for exploring reachable states, shortest paths, and connected components.
+    Breadth-First Search (BFS) and Depth-First Search (DFS) are 
+    algorithms for exploring tree or graph structures. 
+    You don't always need to model a full tree/graph in code; what matters is the traversal strategy.
+    BFS explores neighbors level by level (often with a queue); and
+    DFS dives deep before backtracking (usually with a stack or recursion).
+    Both are great for exploring reachable states, shortest paths, and connected components.
 
 - Binary Search
 
-Binary Search isn't just for sorted arrays. 
-It's a powerful way to narrow down the search space in any problem where the space is monotonic. 
-In other words, the solution space behaves in a way that allows binary decisions.
+    Binary Search isn't just for sorted arrays. 
+    It's a powerful way to narrow down the search space in any problem where the space is monotonic. 
+    In other words, the solution space behaves in a way that allows binary decisions.
 
 - Backtracking
 
-When coding, things get tiring once the logic gets too complicated:
-not only does the developer feel overwhelmed, but the reviewer also struggles to follow. 
-As a method to simplify logics, 
-backtracking is a clever way to handle brute-force methods: 
-mark a state, explore all possible next states, then remove the marker when backtracking.
-It's basically recursion + DFS, and it's often used for problems like finding number combinations.
-
+    When coding, things get tiring once the logic gets too complicated:
+    not only does the developer feel overwhelmed, but the reviewer also struggles to follow. 
+    As a method to simplify logics, 
+    backtracking is a clever way to handle brute-force methods: 
+    mark a state, explore all possible next states, then remove the marker when backtracking.
+    It's basically recursion + DFS, and it's often used for problems like finding number combinations.
+    
 ### Useful packages in Python
 
 When solving problems in Python, 
@@ -198,3 +198,18 @@ my goal with LeetCoding is to collect those visual coins and redeem some goodies
 If I ever earn enough, I'm definitely showing off the prize.
 
 Happy Coding and Happy Mother's Day!
+
+---
+
+### EXTRA! GOT THE PRIZE!
+
+**"YEEEE! YES! I got it!"**[^yeee] 
+The T-shirt came along with a set of LeetCode stickers.
+Thanks to LeetCode for sharing a little extra happiness. This prize cost me 7200 virtual coins.
+Finishing a single daily challenge earns 10 coins -- now you can calculate my time complexity.
+  
+{{< figure src="lc-tshirt.png" caption="With two of my lovely pots." >}}
+
+
+[^yeee]: [噫！好！我中了！](https://www.classicalchineseliterature.org/article.php?article=儒林外史・范進中舉).
+Taiwanese people around my age who studied hard in high school would probably recognize this meme from language classes.
