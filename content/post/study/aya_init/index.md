@@ -117,7 +117,7 @@ Because of that, instead of jumping into a larger project immediately,
 I gave myself a smaller practice project: *extending the firewall example with several additional features*. 
 Details as below:
 - Extend the blocking rule from only IP addresses to IP + port combinations
-- Load the block list from a file in userspace
+- Load the block list from a file in user-space
 - Store the block list inside an eBPF map so the kernel-space eBPF program can access it
 - Apply filtering rules dynamically based on the plain-text file
 
@@ -319,12 +319,58 @@ than reading (even more than this post itself.)
 
 During this implementation practice, 
 I revisited some topics from my previous study notes and [TODO list](../ebpf). 
-I'd like to share a deeper discussion here, 
-but for now I'll leave this section as a placeholder and plan to complete it next week 😗.
+I'd like to share a deeper discussion here.
 
 ### eXpress Data Path (XDP)
 
+Similar to the [early idea of BPF](https://lwn.net/Articles/682538/), which works on the network packets:
+XDP is designed to process packets as early as possible in the receive path, 
+allowing applications to bypass much of the kernel networking stack and reduce processing overhead. 
+XDP is built on top of eBPF and allows user-defined logic to run directly 
+in the network driver's receive path, immediately after packets arrive from the network device[^hbd-xdp].
+
+One concept that was not covered in my earlier eBPF introduction is the idea of 
+[eBPF program types](https://docs.ebpf.io/linux/program-type/). 
+Examples include networking, tracing, cgroup, security, and several others. 
+Each program type is attached to a specific location in the kernel 
+and is allowed to perform only a predefined set of operations. 
+These restrictions are enforced by the eBPF verifier to ensure safety and correctness.
+
+
+One concept not covered in my eBPF introduction is that, 
+there exists the idea of [program type](https://docs.ebpf.io/linux/program-type/) of eBPF (network, cgroup, tracing, and others).
+Different types of eBPF programs can work on different part in the kernel. 
+In other words, the other permissions or operations in the kernel are restricted, 
+this restriction is managed by verifier.
+XDP one of the networking-related eBPF program types.
+
+
+[^hbd-xdp]: There are many materials online about XDP. Do recommend to check this introduction [slides](https://github.com/iovisor/bpf-docs/blob/master/Express_Data_Path.pdf) from the authors, and this
+[Happy Birthday post](https://medium.com/@tom_84912/happy-birthday-xdp-a971b8ac75e6) from Tom Herbert telled the story of how XDP had been created is really appealing. 
+
+
 ### eBPF Maps
+
+As mentioned in last eBPF study post, 
+an eBPF map is a shared in-memory data store that 
+enables communication between userspace and kernel-space programs. 
+The relationship is not limited to a single userspace process and a single eBPF program. 
+Once a map is created, other processes can also access it (with appropriate handle and permissions).
+As shown in the [screenshot](#debugging-and=verification), 
+`bpftool` is able to discover and inspect the map.
+The key reason this sharing works is that both user- and kernel-space programs 
+aligns with the same memory layout of the stored data. 
+
+eBPF maps come in many [types](https://docs.ebpf.io/linux/map-type/) as well.
+Modern eBPF frameworks typically define maps using [BTF](https://docs.kernel.org/bpf/btf.html)
+-style declarations rather than the legacy `bpf_map_def` structure. 
+Aya follows this modern [approach](https://docs.rs/aya/latest/aya/maps/index.html#reexports) 
+while still supporting the [legacy one](https://docs.rs/aya/latest/aya/struct.bpf_map_def.html) for compatibility. At the time of writing, I counted support for 19 out of 34 Linux map types 
+(I didn't verify whether the supported ones correspond one-by-one with the kernel definitions).
+The advantages of modern BTF-style maps are not just 
+the categorization of map functionality and predefined data structures. 
+They also provide greater flexibility by allowing developers to use custom data types.
+In my [practice project](#redesigning-the-data-structure-of-block-list), `IpAddr` is the case.
 
 ## Next Steps
 
@@ -334,14 +380,14 @@ Well... it was definitely faster than my previous posts, but still not that fast
 I spent around: 5 days learning Aya, going through the tutorials, and drafting the outline;
 2 days implementing the project and summarizing the technical findings, and; 
 another 5 days just writing the post itself.
-And technically, I still haven't finished it yet! (Just look at the unfinished last section 🤦🏻‍♀️)
+~~And technically, I still haven't finished it yet! (Just look at the unfinished last section 🤦🏻‍♀️)COMPLETED!~~
 This experience reminded me that put ideas together into a coherent story 
 is often the most time-consuming. Respect to all writers.
 
 Of course, this is far from the end of my journey with Rust, eBPF, and Aya. 
 There are still many topics I want to explore further:
 - [tokio](https://github.com/tokio-rs), the asynchronous process in Rust, we have it in the Aya tutorial
-- [CO-RE implementation](https://eunomia.dev/tutorials/)
+- CO-RE implementation and support in Aya
 - reimplementing or prototyping larger projects for practice. I also came across the inspiring 
 [example](https://yuki-nakamura.com/2024/12/28/tetragon-mini-by-rust-ebpf-based-process-monitoring) from Yuki Nakamura.
 
