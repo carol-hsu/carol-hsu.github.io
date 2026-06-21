@@ -1,4 +1,8 @@
 {{- $socImg := resources.Get "images/base_prev.png" -}}
+{{- with .Page.Resources.GetMatch "background.png" -}}
+  {{- $socImg = . -}}
+{{- end -}}
+
 {{- $socImg = $socImg.Fit "1280x669" }}
 {{- with .Page.Resources.GetMatch "title.png" }}
   {{- $titleImg := . -}}
