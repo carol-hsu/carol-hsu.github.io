@@ -1,0 +1,29 @@
+/**------------------------------------------------------------------------
+ *                           CUSTOM STYLES
+ *                 You can add your custom styles here.
+ *------------------------------------------------------------------------**/
+.introduction-card__avatar img {
+  width: 250px;
+  height: 250px;
+  //border-radius: 20%;
+  //padding: 15px;
+  align-self: center;
+  //border: 2px solid #ddd;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  box-shadow: none;
+  //box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+}
+
+
+
+/**------------------------------------------------------------------------
+ *                        Chinese Font Example
+ *------------------------------------------------------------------------**/
+// body:lang(zh) {
+//   line-height: 1.618;
+//   letter-spacing: 0.0618em;
+//   font-family: -apple-system, BlinkMacSystemFont, SF UI Text, Helvetica Neue, PingFang SC,
+//     Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif;
+// }
