@@ -258,7 +258,7 @@ usually means spending plenty of time reading the [API reference](https://tetrag
 This is the process as we learn any new API, protocol, library, 
 or framework with a well-defined specification.
 Furthermore, the Tetragon repository contains 
-many example [TracingPolicies](https://github.com/cilium/tetragon/tree/main/examples/tracingpolicy) 
+many [example TracingPolicies](https://github.com/cilium/tetragon/tree/main/examples/tracingpolicy) 
 covering different use cases. Besides learning the configuration syntax, 
 studying these examples is also a great way to build intuition about Linux security mechanisms 
 and the kernel hooks that make them possible.
@@ -266,7 +266,7 @@ and the kernel hooks that make them possible.
 
 ## Hackathon! Building a Malicious gRPC workload
 
-I have finished Tetragon's official tutorial and Isovalent's hands-on [lab](https://isovalent.com/labs/).
+I have finished Tetragon's official tutorial and Isovalent's [hands-on lab](https://isovalent.com/labs/).
 To really make the knowledge stick, I think nothing beats building something yourself. So I quickly came up with a small hackathon project.
 
 - Two components communicate through gRPC. The client acts as the attacker, 
@@ -285,4 +285,8 @@ My goals for this mini-project are:
 I will share this project once I finish 🥹
 (To be continued)
 
+## Mini-Detour: What is gRPC
+
+Before talking of what is gRPC, we should talk of what is RPC. 
+This is a popular question around the communication of distributed system.
 
