@@ -123,9 +123,10 @@ while len(frontier) > 0:
     # explore this node if it has the outgoing edges
     if node in connect:
         for next_node, time in connect[node].items():
+
             # see if we need to update its shortest path
             if visit_time[next_node] > time+cur_time:
-                visit_time[next_node] = time+cur_time
+                visit_time[next_node] =  time+cur_time
 
                 # The updated path may propagate the improvement to impact its downstream nodes
                 hq.heappush(frontier, (visit_time[next_node], next_node))
