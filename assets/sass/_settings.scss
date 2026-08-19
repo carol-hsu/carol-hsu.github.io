@@ -13,7 +13,7 @@ $jane-theme-color: 'slate';
 /**------------------------------------------------------------------------
  *                            Article Max Width
  *------------------------------------------------------------------------**/
-$article-max-width: 40em;
+$article-max-width: 50em;
 
 /**------------------------------------------------------------------------
  *                            Site Header Height
@@ -39,7 +39,3 @@ $global-mobile-font-size: 15px;
  *------------------------------------------------------------------------**/
 $mobile-breakpoint: 768px;
 $large-breakpoint: 1024px;
-
-.introduction-card__avatar img {
-  border: none;
-}
