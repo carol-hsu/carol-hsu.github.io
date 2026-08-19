@@ -1,7 +1,7 @@
 ---
 title: "The Goblin Kubernetes"
 description: "Deepdive into the popular, lightweight Kubernetes distributions."
-date: 2026-08-18
+date: 2026-08-19
 draft: false
 tags: [
     "kubernetes",
