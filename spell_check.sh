@@ -1,3 +1,3 @@
 #!/usr/local/bin/bash
 
-cat content/post/*.md | aspell list -t | sort -f | uniq > aspell-out | git diff aspell-out
+cat content/post/*/*/index.md | aspell list -t | sort -f | uniq > aspell-out | git diff aspell-out
